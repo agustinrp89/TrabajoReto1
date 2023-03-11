@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    margin: auto;    
+}
+
+/* ---------------HEADER--------------- */
+
+.Encabezado {
+    padding: 6rem;
+    text-align: center;
+    
+  background-position: center center;
+  background-size: cover;
+    background-image: url("../imagenes/imagenSVG.svg");
+   
+    
+}
+
+.Blour {
+    
+    width: 70%;    
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: auto;    
+    background: rgba(255, 255, 255, 0.5)
+    
+}
+
+.Justify{
+    justify-content: center;
+}
+
+.SubTitulo{
+    margin-top: 2rem;
+}
+
+/* Body parte 1 */
+
+.Background2{
+    padding: 6rem;
+  background-size: cover;
+    background-image: url("../imagenes/fondo2.jpg");
+}
+
+.TituloEstudio{
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.AlinearCuadros{
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+    margin: 1rem;
+}
+
+
+/* Body part2 */
+
+.Background3{
+    padding-top: 4rem;
+    background-size: 100% 100%;
+    
+    background-repeat: no-repeat;
+   
+     
+}
+
+.TituloBeneficios{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+   
+}
+
+.lista{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    
+}
+
+.ListaTexto{
+    margin: 1rem;
+}
+
+/*----------------- FORM--------------- */
+.Background4{
+    
+        padding: 6rem;        
+        background-image: url("../imagenes/imagenSVG2.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+}
+
+.centrarForm{
+    margin: auto;
+}
+
+.centrarTexto{
+    padding: 1rem;
+    text-align: center;
+}
+
+/*---------------- FOOTER-------------------*/
+
+.Background5{
+    padding: 2rem;
+    background-color: black;
+}
+
+.DerechoAutor{
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
