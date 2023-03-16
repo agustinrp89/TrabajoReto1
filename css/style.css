@@ -39,7 +39,7 @@
     margin-top: 2rem;
 }
 
-/* Body parte 1 */
+/* --------------------------Body parte 1 ----------------------------*/
 
 .Background2{
     padding: 6rem;
@@ -54,24 +54,51 @@
     margin-bottom: 3rem;
 }
 
+.MargenesEstudio{
+    margin-bottom: 5rem;
+}
+
+.MargenContenidoCard{
+    padding: 1rem;
+}
+
 .AlinearCuadros{
     margin: auto;
     text-align: center;
 }
 
 .card{
-    margin: 1rem;
+    padding: 1rem;
+}
+
+.card-title{
+    padding: 1rem;
 }
 
 
-/* Body part2 */
+.DisplayNone{
+    display: block;
+}
+
+.imagen{
+    float: right;
+}
+
+.fotoEstudio{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+/* -----------------------Body part2 -----------------------*/
 
 .Background3{
     padding-top: 4rem;
     background-size: 100% 100%;    
     background-repeat: no-repeat;
-    margin-bottom: 2rem;
-   
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: #EAF2FE;
      
 }
 
@@ -83,13 +110,27 @@
 }
 
 .lista{
-    margin-left: 3rem;
+    padding-left: 2rem;
     margin-top: 3rem;
     
 }
 
 .ListaTexto{
-    margin: 1rem;
+    margin: 3rem;
+}
+
+.AlinearVertical{
+    align-items: center;
+    
+}
+
+.Borde{
+    border: 1px dotted #ff8833;
+    
+}
+
+.ImgBeneficio{
+    border-radius: 50%;
 }
 
 /*----------------- FORM--------------- */
@@ -111,7 +152,10 @@
 .centrarTexto{
     padding: 1rem;
     text-align: center;
+    font-weight: bold;
 }
+
+
 
 /*---------------- FOOTER-------------------*/
 
@@ -127,6 +171,13 @@
     color: white;
 }
 
+
+/* ----------------RESPONSIVE--------------------*/
+@media (min-width: 990px) and (max-width:1200px) {
+   .fotoEstudio{
+    margin-top:3rem;
+   }
+}
 @media (max-width: 991px) {
     .Encabezado{
         padding-left: 1rem;
@@ -141,6 +192,11 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
+    .DisplayNone{
+        display: flex;
+    }
+ 
 }
 
 @media (max-width: 770) {
